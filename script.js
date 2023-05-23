@@ -1,6 +1,6 @@
 // DESIGNED AND DEVELOPED BY ANAMZREDIAH
 
-// js code 
+// js code
 const navbar = document.querySelector('.header .navbar');
 const menuButton = document.querySelector('.header .menu');
 
