@@ -262,6 +262,7 @@ section {
 
 .services .box-container .box:hover {
   background: var(--black);
+  border: 2px solid white;
 }
 
 .services .box-container .box:hover h3,
