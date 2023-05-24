@@ -219,12 +219,8 @@ section {
   gap: 2rem;
 }
 
-.about .box-container .box p {
-  font-size: 1.7rem;
-  line-height: 1.5;
-  margin-bottom: 1.5rem;
-  color: var(--light-color);
-  text-transform: none;
+.about .box-container .box ul {
+  
 }
 /* about */
 
@@ -255,7 +251,7 @@ section {
   font-size: 2rem;
 }
 
-.services .box-container .box p {
+.services .box-container .box ul {
   font-size: 1.5rem;
   line-height: 2;
   color: var(--light-color);
@@ -266,7 +262,7 @@ section {
 }
 
 .services .box-container .box:hover h3,
-.services .box-container .box:hover p {
+.services .box-container .box:hover ul {
   color: var(--white);
 }
 
