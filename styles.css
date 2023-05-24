@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap');
 
 @keyframes h1animation {
-  from{color: var(--agencyorange);}
-  to{color: black;}
+  33%{color: white;}
+  66%{color: var(--agencyorange);}
+  100%{color: var(--black);}
 }
 
 * {
@@ -183,7 +184,7 @@ section {
   animation-delay: 1000ms;
   animation-iteration-count: infinite;
   animation-name: h1animation;
-  animation-duration: 4000ms;
+  animation-duration: 3000ms;
   animation-direction: alternate;
   text-shadow: rgba(194, 197, 194, 0.733) 1px 1px 1px;
   font-size: 50px;
@@ -191,7 +192,10 @@ section {
   margin-bottom: 3rem;
   color: var(--white);
 }
-
+.home h3{
+  color: var(--agencyorange);
+  font-size: 30px;
+}
 .home p {
   font-size: 1.7rem;
   font-weight: 400;
@@ -390,9 +394,10 @@ section {
 
 /* footer */
 .footer{
-  background-color: var(--light-bg);
+  background-color: var(--black);
 }
 .footer-logo{
+  border-radius: 20px;
   display: inline-flex;
   float: left;
   overflow: hidden;
@@ -405,7 +410,7 @@ section {
 
 .footer .logo {
   font-size: 2rem;
-  color: var(--black);
+  color: var(--agencyorange);
   font-weight: 700;
 }
 
@@ -417,7 +422,7 @@ section {
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-size: 1.5rem;
-  color: gray;
+  color: var(--white);
 }
 
 .footer .socials ion-icon {
