@@ -192,10 +192,6 @@ section {
   margin-bottom: 3rem;
   color: var(--white);
 }
-.home h3{
-  color: var(--agencyorange);
-  font-size: 30px;
-}
 .home p {
   font-size: 1.7rem;
   font-weight: 400;
