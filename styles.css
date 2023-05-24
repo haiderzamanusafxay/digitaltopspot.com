@@ -2,11 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap');
 
 @keyframes h1animation {
-  0%   {color: red;}
-  25%  {color: yellow;}
-  50%  {color: blue;}
-  75% {color: white}
-  100% {color: green;}
+  from{color: var(--agencyorange);}
+  to{color: black;}
 }
 
 * {
@@ -30,8 +27,15 @@
   --twitter-color: #1da1f2;
   --youtube-color: #ff0000;
   --linkedin-color: #0e76a8;
+  --agencyorange: rgb(247, 162, 5);
 }
 
+.orange{
+  color: rgb(247, 162, 5);
+}
+.black{
+  color: black;
+}
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -75,7 +79,7 @@ section {
 
 /* reusable */
 .btn {
-  color: var(--white);
+  color: var(--agencyorange);
   font-weight: 400;
   font-size: 1.7rem;
   border: 0.1rem solid var(--white);
@@ -84,8 +88,9 @@ section {
 }
 
 .btn:hover {
-  background: var(--black);
-  color: var(--white);
+  background: var(--agencyorange);
+  color: black;
+  border: black;
 }
 
 .heading {
@@ -125,6 +130,12 @@ section {
   margin-left: 3rem;
 }
 
+.navbar a:nth-child(even){
+  color: rgb(247, 162, 5);
+}
+.navbar a:nth-child(odd){
+  color: black;
+}
 .header .menu {
   font-size: 2rem;
   color: var(--white);
@@ -172,9 +183,9 @@ section {
   animation-delay: 1000ms;
   animation-iteration-count: infinite;
   animation-name: h1animation;
-  animation-duration: 5000ms;
-  animation-direction: normal;
-  text-shadow: aquamarine 1px 1px 1px;
+  animation-duration: 4000ms;
+  animation-direction: alternate;
+  text-shadow: rgba(194, 197, 194, 0.733) 1px 1px 1px;
   font-size: 50px;
   font-weight: 400;
   margin-bottom: 3rem;
@@ -501,9 +512,13 @@ section {
   .header .navbar.show {
     transform: translateX(0);
   }
-
+  .header .navbar a:nth-child(even){
+    color: var(--agencyorange);
+  }
+  .header .navbar a:nth-child(odd){
+    color: black;
+  }
   .header .navbar a {
-    color: var(--black);
     margin: 0;
     font-size: 2rem;
     margin: 2rem 0;
