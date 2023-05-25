@@ -137,7 +137,7 @@ section {
 .navbar a:nth-child(odd){
   color: black;
 }
-.header .menu {
+.header .menu{
   font-size: 2rem;
   color: var(--white);
   display: none;
