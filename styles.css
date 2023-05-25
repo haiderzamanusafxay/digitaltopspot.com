@@ -327,8 +327,15 @@ section {
 /* works */
 
 /* portfolio */
-.portfoliosetion{
-  background-color: var(--white);
+.works{
+  background-color: var(--black);
+  border-top: 2px solid white;
+}
+.works .box{
+  border: 1px solid var(--agencyorange);
+}
+.works h1{
+  color: white;
 }
 /* portfolio */
 /* contact */
