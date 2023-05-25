@@ -259,12 +259,12 @@
           <p>1111111111111111</p> -->
         </div>
 
-        <form action="emaildata.php" method="GET">
+        <form>
           <div class="inputBox">
-            <input type="text" name="name" placeholder="your name" required/>
-            <input type="email" name="email" placeholder="your email" required/>
+            <input type="text" name="name" placeholder="your name" required id="name"/>
+            <input type="email" name="email" placeholder="your email" required id="email"/>
           </div>
-          <textarea name="message" placeholder="Enter your message here" id="" cols="30" rows="10" required></textarea>
+          <textarea name="message" placeholder="Enter your message here" id="message" cols="30" rows="10" required></textarea>
           <input type="submit" value="Submit" class="btn" />
         </form>
       </div>
@@ -304,5 +304,13 @@
     <!-- local js file -->
     <script src="jquery.min.js"></script>
     <script src="script.js"></script>
+    <script>
+      $(document).ready(function () {
+        var name= $('#name').val();
+        var name= $('#email').val();
+        var name= $('#message').val();
+          $()
+      });
+    </script>
   </body>
 </html>
