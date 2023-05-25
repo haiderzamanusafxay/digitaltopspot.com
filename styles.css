@@ -236,6 +236,7 @@ section {
 }
 
 .services .box-container .box {
+  overflow: hidden;
   background: var(--agencyorange);
   text-align: center;
   border-radius: 1rem;
@@ -253,12 +254,13 @@ section {
 }
 
 .services .box-container .box ul {
-  
   font-size: 17px;
   line-height: 2;
   color: var(--black);
 }
-
+.services .box-container .box ul li{
+  word-wrap: break-word;
+}
 .services .box-container .box:hover {
   background: var(--black);
   border: 2px solid white;
