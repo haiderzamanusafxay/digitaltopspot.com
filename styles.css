@@ -332,6 +332,10 @@ section {
 }
 /* portfolio */
 /* contact */
+.contact a{
+  color: var(--light-bg);
+  text-decoration: none;
+}
 .contact {
 border-top: 2px solid white;
   background-color: black;
