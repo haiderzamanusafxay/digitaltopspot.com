@@ -236,6 +236,7 @@ section {
 
 /* services */
 .services {
+  border-top: 2px solid white ;
   background: var(--black);
 }
 .services .heading{
@@ -332,6 +333,8 @@ section {
   border-top: 2px solid white;
 }
 .works .box{
+  overflow: hidden;
+  border-radius: 10px;
   border: 1px solid var(--agencyorange);
 }
 .works h1{
