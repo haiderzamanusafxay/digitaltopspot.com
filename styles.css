@@ -385,6 +385,7 @@ border-top: 2px solid white;
 }
 
 .contact .box-container form .inputBox input {
+  border: 1px solid var(--agencyorange);
   width: 49%;
 }
 
@@ -398,6 +399,7 @@ border-top: 2px solid white;
 }
 
 .contact .box-container form textarea {
+  border: 1px solid var(--agencyorange);
   width: 100%;
   border-radius: 1rem;
   resize: none;
@@ -405,15 +407,17 @@ border-top: 2px solid white;
 }
 
 .contact .box-container form .btn {
-  color: var(--black);
-  background: var(--white);
-  border: 0.1rem solid var(--black);
+
+  color: var(--agencyorange);
+  background: var(--black);
+  border: 0.1rem solid var(--agencyorange);
   margin-top: 1rem;
 }
 
 .contact .box-container form .btn:hover {
-  background: var(--black);
-  color: var(--white);
+
+  background: var(--agencyorange);
+  color: var(--black);
 }
 /* contact */
 
